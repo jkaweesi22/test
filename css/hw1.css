@@ -1,0 +1,155 @@
+/*Jackline final assignment*/
+
+header{
+    background: #ffccff url("../../../images/flywheel.jpg") no-repeat center top;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+    background-size: cover;
+    padding: 5px;   
+}
+
+
+body{
+    padding: 5px;
+    margin: 2%;
+}
+
+
+h1{
+    color: #FFFFFF;
+    font-size: 220%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+h2{
+    background: #cdcfff;
+    color:#1a0000;
+    text-transform: uppercase;
+}
+
+.right{
+    background: #ffffff;
+    width: 60%;
+    display: block;
+    float:right;
+    padding: 32px 44px;
+}
+
+section{
+    line-height: 150%;
+}
+
+a.active{
+    background-color:#0080FF;
+	color:#000000;
+}
+
+nav{
+    width: 700px;
+    margin: auto;
+    
+}
+
+nav a{
+    background:#FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px 20px;
+    width: 100px;
+    color: #00bfff;
+    text-align: center;
+    display: inline-block;
+a{
+	color:#8000ff;
+	background-color:#FFFFFF;
+}
+    
+}
+img{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    
+    display: block;
+    border: 3px solid #ccffcc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img:hover{
+    border: 3px solid #000000;
+}
+
+.left{
+    width: 30%;
+    background-color: #0080FF;
+    display: inline-block;
+    float:left;
+       
+    padding: 5px;
+}
+
+
+aside{
+    /*background-color: #608000;*/
+    display: inline-block;
+    
+}
+
+/*Final assignment*/
+table{
+
+  border-spacing: 0.5px;
+  margin-left: 90px;
+  width: 75%;
+}
+th{
+  text-align: left;
+  background: -moz-linear-gradient(top,#f6f1d3 6%, #293f50);
+  background: -webkit-linear-gradient(#f6f1d3 6%, #293f50);
+  background: -o-linear-gradient(#f6f1d3 6%, #293f50);
+  background: linear-gradient( #f6f1d3 6%, #293f50);
+  color: white;
+  height: 35px;
+  border-left: 1px solid #dddddd;
+  -webkit-border-radius: 5px 5px 0 0;
+  font-style: bold;
+  color: #000000;
+  border-bottom: 1px solid #dddddd; 
+  padding: 10px;
+}
+
+tr{
+  background:#808080;
+  padding: 10px;
+  opacity: 0.7;
+  color: black;
+  font-size:20px;
+}
+tr:hover{
+   color: #000;
+  background-color: #9AD8BB;
+}
+table td{
+  text-align: center;
+}
+table td:first-child{
+  text-align: left;
+}
+th{
+  text-align: center;
+}
+th:first-child{
+  text-align: left;
+}
+td{
+  height: 30px;
+  border-left: 1px solid #dddddd; 
+  border-bottom: 1px solid #dddddd; 
+  padding: 10px;
+}
+
+
+
